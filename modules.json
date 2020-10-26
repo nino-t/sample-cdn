@@ -67,6 +67,23 @@
                   "route": "/analytics/realtime/location"
                 }
               ]
+            },
+            {
+              "name": "Pages",
+              "modules": [
+                {
+                  "name": "Overview",
+                  "route": "/analytics/pages/overview"
+                },
+                {
+                  "name": "Videos",
+                  "route": "/analytics/pages/videos"
+                },
+                {
+                  "name": "Path",
+                  "route": "/analytics/pages/path"
+                }
+              ]
             }
           ]
         }
