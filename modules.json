@@ -1,0 +1,76 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Mola TV",
+      "identifier": "molatv",
+      "module_groups": [
+        {
+          "name": "Content",
+          "modules": [
+            {
+              "name": "Video",
+              "modules": [
+                {
+                  "name": "Browse video",
+                  "route": "/content/video"
+                },
+                {
+                  "name": "Add new video",
+                  "route": "/content/video/new"
+                }
+              ]
+            },
+            {
+              "name": "Playlist",
+              "modules": [
+                {
+                  "name": "Browse playlist",
+                  "route": "/content/playlist"
+                },
+                {
+                  "name": "Add new playlist",
+                  "route": "/content/playlist/new"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Analytics",
+          "modules": [
+            {
+              "name": "Dashboard",
+              "route": "/analytics/dashboard"
+            },
+            {
+              "name": "Video",
+              "route": "/analytics/video"
+            },
+            {
+              "name": "User Journey",
+              "route": "/analytics/user-journey"
+            },
+            {
+              "name": "Real time",
+              "modules": [
+                {
+                  "name": "Overview",
+                  "route": "/analytics/realtime/overview"
+                },
+                {
+                  "name": "Streaming",
+                  "route": "/analytics/realtime/streaming"
+                },
+                {
+                  "name": "Location",
+                  "route": "/analytics/realtime/location"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

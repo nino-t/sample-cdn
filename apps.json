@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "type": "app",
+      "attributes": {
+        "name": "Misty",
+        "identifier": "misty",
+        "imageURL": "https://cdn02.supersoccer.tv/Il3PgbLGR0GCvanrI9wU_misty-logo-32x32.png"
+      }
+    },
+    {
+      "id": 2,
+      "type": "app",
+      "attributes": {
+        "name": "Mola TV",
+        "identifier": "molatv",
+        "imageURL": "https://cdn01.sent.tv/YFuvN1f4Txi5BuSjK8r5_sent_1560246456.png"
+      }
+    }
+  ]
+}
